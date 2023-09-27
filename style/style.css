@@ -1,0 +1,416 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #747474;
+}
+
+/*******************************/
+/***********Header*************/
+/******************************/
+
+.main-navbar {
+    overflow: auto;
+    position: fixed;
+    top: 0px;
+    z-index: 3;
+    width: 100%;
+    height: 75px;
+    background: hsla(0, 0%, 100%, .98);
+    display: flex;
+    justify-content: space-around;
+}
+
+.docp-logo {
+    width: 268px;
+    height: 33px;
+    margin: 20px 10px;
+
+
+
+}
+
+img {
+    width: 100%;
+}
+
+.head-link {
+    margin-top: 30px;
+    margin-right: 15%;
+    white-space: nowrap;
+
+}
+
+.nav-link {
+    padding: 2%;
+}
+
+.nav-link a {
+    color: #747474;
+    text-decoration: none;
+}
+
+.nav-link a:hover {
+    color: #00b39b;
+    cursor: pointer;
+}
+
+#aboutus-link {
+    color: #00b39b;
+}
+
+/*************************/
+/*********FOOTER*********/
+/************************/
+footer {
+    height: 75px;
+    width: 100%;
+    border-top: 1px solid grey;
+    font-size: .75em;
+    color: #ababab;
+    text-align: center;
+    line-height: 2.2;
+}
+
+footer a {
+    color: #3d83df;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/**************************/
+/**********MAIN**********/
+/************************/
+
+/**********1st section*****/
+.service-section,
+.statis-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+.doc-logo {
+
+    width: 40px;
+    height: 40px;
+
+
+}
+
+.slogan-text {
+    margin-top: 15px;
+    color: #00b39b;
+    font-size: 1.625em;
+    font-weight: 500;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 50px; */
+    overflow: hidden;
+}
+
+.description-container {
+    width: 478px;
+    height: 112px;
+    line-height: 1.75;
+    margin: 25px;
+    white-space: normal;
+}
+
+.patient-div {
+    width: 320px;
+    height: 340px;
+    max-width: 320px;
+    max-height: 340px;
+    border-radius: 10px;
+    background-color: #00ccb1;
+    white-space: normal;
+    overflow: hidden;
+
+
+}
+
+.division-title {
+    color: hsla(0, 0%, 100%, .7);
+    font-size: 14px;
+    padding-left: 30px;
+    padding-top: 15px;
+
+}
+
+.division-desc {
+    color: #fff;
+    font-size: 27px;
+    padding-left: 30px;
+
+}
+
+.country-selection {
+    margin: 3% 2% 0% 7%;
+    width: 80px;
+    height: 45px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.country-selection select {
+    width: 175px;
+    height: 40px;
+    border-radius: 5px;
+    background: #fff;
+    border: 0;
+    text-transform: uppercase;
+    padding: 3% 2% 0% 10%;
+}
+
+
+
+#doctor-div {
+    background-color: #3d83df;
+    margin-left: 25px;
+
+
+}
+.country-selection {
+    margin: 3% 2% 0% 7%;
+    width: 80px;
+    height: 45px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.country-selection select {
+    width: 175px;
+    height: 40px;
+    border-radius: 5px;
+    background: #fff;
+    border: 0;
+    text-transform: uppercase;
+    padding: 3% 2% 0% 10%;
+}
+
+#service-div,
+#desc-div,
+#company-brands {
+    flex-direction: row;
+    justify-content: center;
+}
+
+#doctor-desc {
+    margin-bottom: 75px;
+}
+
+#company-slogan {
+    width: 16%;
+    margin-left: 15%;
+
+}
+
+.brand-logo {
+    list-style: none;
+
+}
+
+.brand-logo li {
+    font-size: 16px;
+    display: inline-block;
+    width: 168px;
+    padding-right: 5px;
+}
+
+.brand-logo li:hover svg {
+    fill: #00b39b;
+}
+
+.brand-logo li svg {
+    height: 20px;
+    width: auto;
+    max-width: 100%;
+    padding-top: 10px;
+    fill: #747474;
+}
+
+
+
+
+
+#clinics-div {
+    background-color: #1c2434;
+    margin-left: 25px;
+
+
+}
+.country-selection {
+    margin: 3% 2% 0% 7%;
+    width: 80px;
+    height: 45px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.country-selection select {
+    width: 175px;
+    height: 40px;
+    border-radius: 5px;
+    background: #fff;
+    border: 0;
+    text-transform: uppercase;
+    padding: 3% 2% 0% 10%;
+}
+
+#service-div,
+#desc-div,
+#company-brands {
+    flex-direction: row;
+    justify-content: center;
+}
+
+#clinics-desc {
+    margin-bottom: 75px;
+}
+
+
+/***********SECOND SECTION**********/
+.statis-section {
+    background-color: #e5faf8;
+    height: 600px;
+    width: 100%;
+    flex-direction: row;
+
+
+}
+
+#upstat-div {
+    margin-top: 50px;
+    width: 50%;
+    align-items: center;
+
+
+}
+
+#statis-slogan {
+    font-size: 2.2em;
+}
+
+.statis-desc {
+    font-size: .875em;
+    font-weight: 400;
+    /* line-height: 1.72; */
+    padding: 13px 129px;
+}
+
+.ddplogo-statis {
+    height: 382px;
+    width: 440px;
+    margin-top: 25px;
+}
+
+
+.box {
+    background-color: #fff;
+    width: 228px;
+    height: 250px;
+    border-radius: 5px;
+    margin-top: 31px;
+    text-align: center;
+}
+
+.box img {
+    margin-top: 13%;
+    width: 40px;
+}
+
+.land-desc {
+    padding: 0%;
+    font-size: 13px;
+}
+
+.rd-title {
+    font-size: 20px;
+}
+
+.box-neighb {
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+/***************THIRD SECTION**********/
+
+
+
+.text-container {
+    width: 470px;
+    margin: 8% 31%;
+    text-align: center;
+
+}
+
+.text-div {
+    font-size: .875em;
+    line-height: 1.7;
+
+}
+
+/***********FOURTH SECTION*************/
+
+.image-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    margin: 0% 13% 9%;
+}
+
+.wrapper {
+    width: 309px;
+    height: 345px;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+}
+
+.wrapper img {
+    width: 309px;
+    height: 278px;
+
+}
+
+.city-desc {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    margin: 5%;
+}
+
+.seemore-btn {
+
+    border: 0;
+    border-radius: 4px;
+    padding: 10px 10px;
+    margin-left: 29%;
+    background: #3d83df;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+}
+
+.image-section a {
+    text-decoration: none;
+    color: #747474;
+
+}
